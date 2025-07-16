@@ -128,36 +128,36 @@ ALTER SESSION SET NLS_TERRITORY=America;
 -- create tables, sequences and constraint
 --
 
-@?/demo/schema/human_resources/hr_cre
+@/home/oracle/B30-Evng-main/human_resources/hr_cre
 
 -- 
 -- populate tables
 --
 
-@?/demo/schema/human_resources/hr_popul
+@/home/oracle/B30-Evng-main/human_resources/hr_popul
 
 --
 -- create indexes
 --
 
-@?/demo/schema/human_resources/hr_idx
+@/home/oracle/B30-Evng-main/human_resources/hr_idx
 
 --
 -- create procedural objects
 --
 
-@?/demo/schema/human_resources/hr_code
+@/home/oracle/B30-Evng-main/human_resourcess/hr_code
 
 --
 -- add comments to tables and columns
 --
 
-@?/demo/schema/human_resources/hr_comnt
+@/home/oracle/B30-Evng-main/human_resources/hr_comnt
 
 --
 -- gather schema statistics
 --
 
-@?/demo/schema/human_resources/hr_analz
+@/home/oracle/B30-Evng-main/human_resources/hr_analz
 
 spool off
