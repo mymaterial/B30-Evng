@@ -47,9 +47,9 @@ aws-cli/2.15.21 Python/3.11.6 Linux/6.1.75-99.163.amzn2023.x86_64 exe/x86_64.amz
 wget https://yum.oracle.com/RPM-GPG-KEY-oracle-ol8 -O /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY-oracle
 
-dnf install https://download.oracle.com/otn_software/linux/instantclient/1919000/oracle-instantclient19.19-basic-19.19.0.0.0-1.el9.x86_64.rpm
+yum install -y https://download.oracle.com/otn_software/linux/instantclient/1919000/oracle-instantclient19.19-basic-19.19.0.0.0-1.el9.x86_64.rpm
 
-dnf install https://download.oracle.com/otn_software/linux/instantclient/1919000/oracle-instantclient19.19-sqlplus-19.19.0.0.0-1.el9.x86_64.rpm
+yum install -y https://download.oracle.com/otn_software/linux/instantclient/1919000/oracle-instantclient19.19-sqlplus-19.19.0.0.0-1.el9.x86_64.rpm
 
 useradd oracle
 su - oracle
